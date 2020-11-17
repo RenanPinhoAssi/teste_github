@@ -1,0 +1,41 @@
+﻿{
+  "information": {
+    "modulo-numero": "Scheffer EaD",
+    "modulo-resumido": "",
+    "modulo-nome": "Embarque e Faturamento "
+  },
+  "configuration": {
+    "target": "#menu_item_list",
+    "start-level": 0,
+    "max-level": 4,
+    "min-level": 0,
+    "prefix-name": "pages/capitulo_"
+  },
+  "pages": [
+    {
+      "placeholder": "Unidade 1",
+      "url": "pages/capitulo_0.html"
+    },    
+ 
+    {
+      "placeholder": "Unidade 2",
+      "url": "pages/capitulo_1.html"
+    },   
+    
+    {
+      "placeholder": "Unidade 3",
+      "url": "pages/capitulo_2.html"
+    }, 
+    {
+      "placeholder": "Unidade 4",
+      "url": "pages/capitulo_3.html"
+    }, 
+ 
+ 
+    {
+      "placeholder": "Referências",
+      "url": "pages/capitulo_5.html"
+    }
+    
+  ]
+}

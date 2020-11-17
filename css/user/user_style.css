@@ -1,0 +1,377 @@
+.color-white{
+  color:white;
+}
+
+/* .title{
+  background: var(--PRIMARY_STRONG);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.title h1{
+  color:white;
+  margin: 0;
+  padding: 0;
+} */
+
+.bar-title{
+  width: 100%;
+  height: auto;
+  background: var(--PRIMARY_STRONG);
+  padding: 15px 0;
+}
+
+
+.bar-title h1{
+  color:white;
+  margin: 0;
+  padding: 0;
+}
+
+.modulo_1 .animation-screen {
+  position: relative;
+  width: 40vw;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.modulo_1 .quiz_background_animated {
+  position: relative;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.modulo_1 .full_height_character_holder {
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  left: 50%;
+  bottom: 0;
+}
+
+.modulo_1 .lss_quiz .outerBox {
+  background: #e5e5e3;
+  padding: 30px;
+  padding-top: 45px;
+  width: 100%;
+}
+
+.modulo_1 #julia_waiting {
+  position: absolute;
+  z-index: 1;
+  width: 19vw;
+  left: -8.8vw;
+  bottom: 0;
+}
+.modulo_1 #julia_responde {
+  position: absolute;
+  z-index: 2;
+  width: 19vw;
+  left: -8.8vw;
+  bottom: 0;
+  display: none;
+}
+
+.modulo_1 table td {
+  vertical-align: middle !important;
+  padding: 5px !important;
+}
+.modulo_1 table .table-destaque {
+  background: var(--PRIMARY_STRONG);
+}
+.modulo_1 table .table-destaque td {
+  background: var(--PRIMARY_STRONG);
+}
+
+
+/* novo */
+.flip-card-wide{
+  width: 420px;
+  height: 280px;
+  margin: auto;
+}
+
+/* novo */
+@media only screen and (max-width: 991px){
+  .header_numero_modulo_resumido {
+    color: #7582aa !important;
+  }
+}
+
+
+@media only screen and (max-width: 719px) {
+  
+  .modulo_1 .animation-screen {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0;
+    background: white;
+    border-radius: 15px;
+  }
+
+  .modulo_1 .full_height_character_holder {
+    bottom: 0;
+  }
+
+  .modulo_1 #julia_waiting {
+    width: 25vw;
+    left: -11.5vw;
+  }
+  .modulo_1 #julia_responde {
+    width: 25vw;
+    left: -11.5vw;
+  }
+
+  .modulo_1 .quiz_background_animated {
+    border-radius: 15px;
+  }
+
+  .modulo_1 .outerBox {
+    padding: 16px !important;
+  }
+
+  .modulo_1 .lss_quiz .questionsBox {
+    padding: 16px !important;
+  }
+
+  .modulo_1 .questions {
+    margin-bottom: 16px;
+    font-size: 15px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .modulo_1 .lss_quiz label {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  /* novo */
+  .flip-card-wide{
+    width: 280px;
+    height: 420px;
+    margin: auto;
+  }
+  .modulo_1 #julia_waiting {
+    width: 33vw;
+    left: -15.1vw;
+  }
+  .modulo_1 #julia_responde {
+    width: 33vw;
+    left: -15.1vw;
+  }
+
+  /* novo */
+  .chapter-display{
+    display:none;
+  }
+}
+
+.region_table {
+  display: none;
+}
+
+.modal-lg {
+  width: 80vw;
+}
+
+/* NOVO */
+  /* carousel slider */
+  .carousel {
+    padding: 50px;
+    border-radius: 15px;
+    border: 2px solid var(--PRIMARY_STRONG);
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background: white;
+    border: 2pt solid var(--PRIMARY_STRONG);
+    border-radius: 50%;
+  }
+  .carousel-control-next-icon {
+    content: "";
+    background-image: url(../../assets/images/identity/resources/arrow-black-right.png);
+    background-size: 70%, 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .carousel-control-prev-icon {
+    content: "";
+    background-image: url(../../assets/images/identity/resources/arrow-black-left.png);
+    background-size: 70%, 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.carousel-inner {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* FECHA CAROUSEL */
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10%;
+}
+.carousel-indicators {
+  margin-bottom: 15px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-indicators li {
+  background: var(--PRIMARY_STRONG);
+  width: 25px;
+  height: 5px !important;
+  border-radius: 50%;
+}
+.carousel-indicators li{
+    background: var(--PRIMARY_STRONG);
+    width: 25px;
+    height: 5px !important;
+    border-radius: 50%;
+}
+
+#tables_modal .modal-content{
+    border-radius: 20px !important;
+}
+
+
+
+.btn-warning {
+  color: white;
+  background-color: var(--COLOR_BLUE_PRF);  
+  border-color: var(--PRF_COLOR_MODULE_SOF);
+}
+.btn-warning:hover {
+  color: var(--COLOR_BLUE_PRF); 
+  background-color: #e0a800;
+  border-color: #d39e00;
+}
+.atividades{
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.5rem;
+    line-height: 2.5;
+    border-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.flip-card-wide{
+  width: 420px;
+  height: 280px;
+  margin: auto;
+}
+.flip-card-wide{
+  width: 280px;
+  height: 420px;
+  margin: auto;
+}
+
+section{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.box-none{
+  background: none; 
+  border-color: none; 
+  background-image: none;
+}
+
+.bg-green-one{
+  background-color: var(--PRIMARY_STRONG);
+}
+.bg-light{
+  background-color: #ebfffe !important;
+}
+
+.arrow-body{
+    background-color: var(--PRIMARY_STRONG);
+    padding: 10px;
+}
+
+.arrow-left{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.arrow-right{
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.arrow-body p{
+  color: white;
+  margin: 0;
+}
+
+.arrow-head{
+
+  background: url(../../assets/images/identity/arrow-head-1.png) left center #ebfffe;
+
+}
+
+
+
+
+.icon-link{
+  float: left;
+  width: 70px;
+  height: 70px;
+  background: url(../../assets/images/identity/link.png) center center #1d809f;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+
+
+.color-white{
+  float: left;
+  color:white;
+}
+
+.carousel_big_text{
+
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid var(--PRIMARY_STRONG);
+
+}
+
+.carousel_big_text .carousel-inner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modulo_1 .ventanita-caract {
+  border: 2px solid var(--PRIMARY_STRONG);
+}
+
+.modulo_1 .ventanita-show {
+  border: 2px solid var(--PRIMARY_STRONG);
+}
+
+.modulo_1 .ventanita-show.active {
+  color: white !important;
+  background: var(--PRIMARY_STRONG) !important;
+}
+
+
+.modulo_1 .accordion .card-header {
+  background-color: var(--PRIMARY_STRONG) !important;
+}
+
+.modulo_1 .accordion h5 {
+  color: white;
+}
+
+.modulo_1 .card-body {
+  border: 1pt solid #c1c1c1;
+}
